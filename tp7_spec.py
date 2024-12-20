@@ -12,7 +12,7 @@ class Fraction:
         """This builds a fraction based on some numerator and denominator.
 
         PRE : 
-        - le dénominateur ne doit pas être égal à zéro
+        - 
         POST : 
         - la fraction est automatiquement simplifiée dés sa création
 
@@ -72,7 +72,7 @@ class Fraction:
         """Overloading of the + operator for fractions
 
         PRE : 
-        - `other` doit être une instance de Fraction.
+        - 
         
         POST : 
         - Retourne une nouvelle fraction simplifiée.
@@ -89,7 +89,7 @@ class Fraction:
         """Overloading of the - operator for fractions
 
         PRE : 
-        - `other` doit être une instance de Fraction.
+        - 
 
         POST : 
         - Retourne une nouvelle fraction simplifiée.
@@ -104,7 +104,7 @@ class Fraction:
         """Overloading of the * operator for fractions
 
         PRE : 
-        - `other` doit être une instance de Fraction.
+        - 
 
         POST :
         - Retourne une nouvelle fraction simplifiée.
@@ -119,8 +119,7 @@ class Fraction:
         """Overloading of the / operator for fractions
 
         PRE : 
-        - `other` doit être une instance de Fraction.
-        - Le numérateur de `other` ne doit pas être nul.
+        - 
         
         POST : 
         - Retourne une nouvelle fraction simplifiée.
@@ -136,7 +135,7 @@ class Fraction:
 
         PRE : 
         - `self` doit être une fraction valide (numérateur et dénominateur définis, dénominateur ≠ 0).
-        - `other` doit être un entier (type `int`).
+        
 
         POST : 
         - Retourne une nouvelle fraction correspondant à self élevée à la puissance other.
@@ -155,7 +154,7 @@ class Fraction:
         """Overloading of the == operator for fractions
         
         PRE : 
-        - `other` doit être une instance de Fraction.
+        -
 
         POST : 
         - Retourne True si les fractions représentent la même valeur.
@@ -236,7 +235,7 @@ class Fraction:
         Two fractions are adjacents if the absolute value of the difference is a unit fraction
 
         PRE : 
-        - `other` doit être une instance de `Fraction`.
+        - 
 
         POST : 
         - Retourne True si la valeur absolue de la différence entre les fractions est une fraction unitaire, sinon False.
